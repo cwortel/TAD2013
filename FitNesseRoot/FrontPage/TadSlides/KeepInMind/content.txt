@@ -1,0 +1,2 @@
+!img -m 50 -b 2 -w 380 http://files/images/testpyramid.jpg
+!c Test Pyramid (Mike Cohn)

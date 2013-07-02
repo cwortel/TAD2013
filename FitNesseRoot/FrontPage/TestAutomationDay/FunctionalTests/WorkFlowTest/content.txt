@@ -1,0 +1,8 @@
+-| script |
+| open bol website |
+| search for | Agile Testing |
+| check book price is | € 41,99 |
+| add to shopping cart |
+| check delivery costs | Gratis |
+| remove from shopping basket |
+| stop browser |

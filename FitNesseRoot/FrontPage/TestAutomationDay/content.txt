@@ -1,0 +1,5 @@
+!contents -R2 -g -p -f -h
+!*> defined variables
+!define imageSettings {350}
+!define TEST_SYSTEM {slim}
+*!

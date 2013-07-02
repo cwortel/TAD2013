@@ -1,0 +1,8 @@
+!*> Suite Setup
+|Import|
+| com.xebia.incubator.xebium |
+
+
+| library |
+| selenium driver fixture |
+*!

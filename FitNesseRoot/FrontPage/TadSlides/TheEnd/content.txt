@@ -1,0 +1,19 @@
+!-<style>
+div.ex
+{
+width:380px;
+padding:20px;
+border:2px solid gray;
+margin:50px;
+}
+</style>-!
+!-<div class="ex">-!
+ [[@sietstweets][http://www.twitter.com/sietstweets]] 
+ cwortel@xebia.com 
+ [[fat-nl.org][http://fat-nl.org]] 
+ [[meetup.com/fitnesse][http://meetup.com/fitnesse]]
+ [[blog.xebia.com][http://blog.xebia.com]] 
+ [[xebia.github.com/Xebium/][http://xebia.github.com/Xebium]] 
+ [[fitnesse.org][http://fitnesse.org]]
+ [[seleniumhq.org][http://seleniumhq.org]]
+!-<br></div>-!

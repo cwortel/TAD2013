@@ -1,0 +1,17 @@
+!-<style>
+div.ex
+{
+width:380px;
+padding:20px;
+border:2px solid gray;
+margin:50px;
+}
+</style>-!
+!-<div class="ex">-!
+Healthy Test Automation
+Xebium Development
+Record and Playback?
+Now do it!
+Pitfalls
+Questions!
+!-<br></div>-!

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<properties>
+	<Edit>true</Edit>
+	<Files>true</Files>
+	<Help>As a Customer I get free delivery when I order over 20 euros, in order to persuade me to spend more</Help>
+	<Properties>true</Properties>
+	<RecentChanges>true</RecentChanges>
+	<Refactor>true</Refactor>
+	<Search>true</Search>
+	<Test/>
+	<Versions>true</Versions>
+	<WhereUsed>true</WhereUsed>
+</properties>

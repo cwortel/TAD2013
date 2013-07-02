@@ -1,0 +1,25 @@
+!- <script type="text/javascript">
+var pages = [
+        '/FrontPage.TadSlides.TestAutomation',
+        '/FrontPage.TadSlides.WhoAmI',
+        '/FrontPage.TadSlides.AgenDa',
+        '/FrontPage.TadSlides.KeepInMind',
+        '/FrontPage.TadSlides.HealthyAutomation',
+        '/FrontPage.TadSlides.DevelopMent',
+        '/FrontPage.TadSlides.RecordPlayback',
+        '/FrontPage.TadSlides.NowDoIt',
+        '/FrontPage.TadSlides.PitFalls',
+        '/FrontPage.TadSlides.JustAsk',
+        '/FrontPage.TadSlides.TheEnd'
+];
+
+window.onkeypress = function (ev) {
+if (ev.charCode === 32) {
+window.location = pages[pages.indexOf(window.location.pathname) + 1] || pages[0];
+}
+ else if (ev.charCode === 9) {
+window.location = pages[pages.indexOf(window.location.pathname) - 1] || pages[pages.length - 1];
+}
+};
+
+</script> -!

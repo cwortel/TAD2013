@@ -1,0 +1,17 @@
+| script |
+| start browser | firefox | on url | http://www.bol.com/ |
+| do | open | on | /nl/index.html |
+| ensure | do | click | on | id=searchfor |
+| ensure | do | type | on | id=searchfor | with | Agile Testing |
+| ensure | do | clickAndWait | on | id=java_search_button_small |
+| ensure | do | clickAndWait | on | link=Agile Testing |
+| ensure | do | waitForText | on | css=span.offer_price | with | € 41,99 |
+| ensure | do | click | on | name=/atg/commerce/order/purchase/CartModifierFormHandler.addItemToOrder |
+| ensure | do | waitForText | on | css=span | with | 1 |
+| ensure | do | clickAndWait | on | css=span |
+| ensure | do | click | on | css=#qft_shopping_basket_shipping_costs > div.price_value. |
+| ensure | do | waitForText | on | css=h1.bol_header | with | Winkelwagentje |
+| check | is | verifyText | on | css=#qft_shopping_basket_shipping_costs > div.price_value. | Gratis |
+| ensure | do | clickAndWait | on | name=/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrder |
+| stop browser |
+

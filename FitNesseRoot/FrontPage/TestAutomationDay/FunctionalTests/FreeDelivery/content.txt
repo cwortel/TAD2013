@@ -1,0 +1,19 @@
+-| comment |
+| given a customer adds a book to the shopping cart |
+| when the book costs over 20 euros|
+| then delivery is free |
+!*> scenario 
+
+| scenario | delivery for book |bookTitle | with price | bookPrice | costs | deliveryCost |
+| open bol website |
+| search for | @bookTitle |
+| check book price is | @bookPrice |
+| add to shopping cart |
+| check delivery costs | @deliveryCost |
+| remove from shopping basket |
+| stop browser |
+*!
+| delivery for book with price costs |
+| bookTitle | bookPrice | deliveryCost |
+| Agile Testing | € 41,99 | Gratis |
+| TMap NEXT in scrum | € 19,95 | € 1,99 |
